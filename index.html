@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="camera-container">
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+        <button id="snap-btn">Take Photo</button>
+        <select id="filter-select">
+            <option value="none">No Filter</option>
+            <option value="grayscale">Grayscale</option>
+            <option value="sepia">Sepia</option>
+            <!-- Add more filter options as needed -->
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
